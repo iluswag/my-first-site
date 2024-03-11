@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-block {
+    background: url('./img/Background.jpg') no-repeat;
+    padding-top: 234px;
+    padding-bottom: 248px;
+    background-size: 100% 100%;
+}
+
+.main-text-selection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 83px;
+    color: blueviolet;
+}
+
+.main-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    color: black;
+}
+
+.main-button {
+    margin-top: 28px;
+    padding: 27px 16px;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 20px;
+    border: 3px solid #8a2be2;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.about-me-block {
+    padding-top: 72px;
+    padding-bottom: 175px;
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.about-me-title {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.img {
+    width: 350px;
+    height: 381px;
+}
+
+.person-info-block {
+    margin-top: 47px;
+    margin-left: 229px;
+    width: 1380px;
+    display: flex;
+    gap: 90px;
+    flex-direction: row;
+}
+
+.person-info-area {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 89px;
+    margin-left: 89px;
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.profession-block {
+    background: url('./img/Background (1).jpg');
+    padding-top: 116px;
+    padding-bottom: 211px;
+    padding-left: 383px;
+    padding-right: 776px;
+    background-size: 100% 100%;
+}
+
+.prosessioon-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 52px;
+    margin-bottom: 53px;
+}
+
+.prosession-text {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.footer-block {
+    padding-top: 178px;
+    padding-left: 776px;
+    padding-bottom: 178px;
+    padding-right: 776px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.VK {
+    margin-right: 38px;
+}
+
+.TG {
+    margin-right: 14px;
+}
+
+@media screen and (max-widht: 1366px) {}
+
+@media screen and (max-widht: 1024px) {}
+
+@media screen and (max-widht: 768px) {}
+
+@media screen and (max-widht: 480px) {}
